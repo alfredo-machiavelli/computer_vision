@@ -1,0 +1,72 @@
+Which the following could possibly make a basis of a linear vector space (dimensionality ≥2)?
+
+  (A) a long vector
+  (B) a set of real numbers
+  (C) a set of vectors, with varied vector dimensions
+  (D) a set of vectors, with the same vector dimension
+  
+Solution: (d). The vectors in a basis should have the same dimension so every element in the
+vector space can be written in a unique way as a finite linear combination of elements of basis.
+
+
+
+
+A linear equation system Ax = b has a single unique solution if?
+
+  (A) A is square
+  (B) A is symmetric
+  (C) A is square and full rank
+  (D) A is square and symmetric
+  
+Solution: (c). If A is square and full rank, then A is invertible. The unique solution is x = A−1b
+
+
+
+
+In which case the aliasing phenomenon will most likely happen?
+
+  (A) Sampling a signal containing only the DC component
+  (B) Sampling a signal containing high-frequency components
+  (C) Reconstructing a signal corrupted by noise
+  (D) Compressing and transmitting a signal through a noisy channel
+  
+Solution: (b). Aliasing is an effect that causes different signals to become indistinguishable (or
+aliases of one another) when sampled.
+
+
+
+
+Given a K-dimensional vector X (i.e., containing K elements), which one of the following operations
+cannot be represented by a linear transformation AX, with regard to some appropriate matrix A?
+
+  (A) Keeping the first three elements of X and discarding others
+  (B) Amplifying the vector norm of X by two times
+  (C) In the polar coordinate system, rotating the angle of X by 45 degrees
+  (D) Sorting all elements by magnitude in the descending order
+
+Solution: (d). Some transformation A can work for some X, but there’s no linear transformation
+that can work for any vector.
+
+
+
+
+For the following examples, state whether or not they are legitimate vector spaces, and explain your reasoning (such as provide a counterexample).
+
+  1. The set of polynomials in one variable, of degree at most d.
+  
+     Solution: True. A vector space means that the elements can be added together and multiplied by
+     scalars. Let p(x) = Pn i=0 aixi, and q(x) = Pn i=0 aixi. Then we have p(x) + q(x) = Pn i=0(ai + bi)xi and kp(x) = Pn i=0(kai)xi.
+      
+  2. The set of continuous functions mapping [0,1] to [0,1], such that f(1) = 1.
+  
+     Solution: False. Let f,g be two elements in this set, then we have f(1) + g(1) = 2 ̸= 1. So this is not a vector space.
+     
+  3. If v1,··· ,vm ∈ V are linearly independent, and T : V → W is a linear operator, is it true that Tv1,··· ,Tvm ∈W must be linearly independent? Explain your reasoning.
+
+     Solution: False. T can map everything to zero, so Tvi can all be zero vectors. In this way, they are not linearly independent.
+     
+  4. If v1,··· ,vm ∈V are dependent, and T : V →W is a linear operator, is it true that Tv1,··· ,Tvm ∈ W must be dependent? Explain your reasoning.
+     
+     Solution: True. Linear dependent means Paivi = 0 has non-zero solutions. Then, Pai(Tvi) =PTaivi = T Paivi = T0 = 0
+     
+  
